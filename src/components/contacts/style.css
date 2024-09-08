@@ -1,0 +1,64 @@
+#container{
+  width:400px;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input{
+    width:100%;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box ;
+    -moz-box-sizing: border-box;
+}
+
+ul,li
+{
+margin: 0;
+padding: 0;
+list-style-type:none;
+}
+
+.list{
+    margin: 15px 0;
+}
+
+.list li{
+    background-color:antiquewhite;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+.contacts-li{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:8px ;
+}
+
+.btn button{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 132, 21);
+    border: 1px solid rgb(198, 197, 197);
+    width: 100px;
+    padding: 5px;
+    align-items:center ;
+    color: white;
+    cursor: pointer;
+    
+}
